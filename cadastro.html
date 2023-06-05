@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiane</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style2.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+</head>
+    <body>
+        <main>
+            <section id="cadastro">
+                <!--<div class="box">-->
+                    <form action="cadastro.php" method="post">
+                        <fieldset>
+                            <legend>Cadastro</legend>
+                            <div class="inputBox">
+                                <input type="text" name="nome" id="nome" class="inputUser" required>
+                                <label for="nome" class="labelinput">Nome completo</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                <label for="telefone" class="labelinput">Telefone</label>
+                            </div>
+                                <label for="data_nascimento">Data de nascimento:</label>
+                                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                            <div class="inputBox">
+                                <input type="text" name="cep" id="cep" class="inputUser" required>
+                                <label for="cep" class="labelinput">CEP</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="rua" id="rua" class="inputUser" required>
+                                <label for="rua" class="labelinput">Rua</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="numero" id="numero" class="inputUser" required>
+                                <label for="numero" class="labelinput">Numero</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                                <label for="bairro" class="labelinput">Bairro</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                                <label for="cidade" class="labelinput">Cidade</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" name="senha" id="senha" class="inputUser" required>
+                                <label for="senha" class="labelinput">Senha</label>
+                            </div>
+                            <input type="submit" name="submit" id="submit">
+                        </fieldset>
+                    </form>
+            </section>
+        </main>
+    </body>
+</html>
